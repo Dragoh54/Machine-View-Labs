@@ -121,7 +121,7 @@ def edge_detection_grayscale(image):
 
 if __name__ == "__main__":
     # Укажите путь к вашему изображению
-    img_path = "./img/image2.jpg"
+    img_path = "./img/image.png"
     img = Image.open(img_path).convert("RGB")
 
     print("1. Построение гистограммы изображения...")
